@@ -39,4 +39,4 @@ class DishetailComponent extends Component {
     }
 }
 
-export default DishetailComponent;
+export default DishetailComponent;  

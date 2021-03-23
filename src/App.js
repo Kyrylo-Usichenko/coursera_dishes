@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       dishes: DISHES
     };
-  }
+  } 
   render() {
     return (
         <div className="App">
