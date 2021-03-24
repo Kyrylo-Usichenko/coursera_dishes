@@ -1,12 +1,11 @@
 import React, { Component } from "react";
+import DishdetailComponent from './DishdetailComponent';
 import {
     Card,
     CardImg,
     CardImgOverlay,
     CardTitle
 } from "reactstrap";
-import DishdetailComponent from './DishdetailComponent'
-
 
 class Menu extends Component {
     constructor(props) {
@@ -25,7 +24,6 @@ class Menu extends Component {
         if (dish != null) return <DishdetailComponent dish={dish} />;
         else return <div />;
     }
-
 
     render() {
         const menu = this.props.dishes.map(dish => {
